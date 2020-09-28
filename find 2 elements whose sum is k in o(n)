@@ -1,0 +1,12 @@
+l=list(map(int,input().split()))
+k=int(input())
+l1=[]
+a=0
+l1.append(l[0])
+for i in l:
+    if((k-i) in l1):
+        a=k-i
+        print(i,a)
+        break
+    else:
+        l1.append(i)
