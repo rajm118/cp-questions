@@ -9,7 +9,7 @@ public class Main {
 		{
 			if(a[i]+a[j]==sum)
 			{
-				System.out.println("pair :"+a[i]+" "+a[j]);
+				System.out.println("pair: "+a[i]+" "+a[j]);
 				count++;
 				i++;
 			}
